@@ -1,0 +1,26 @@
+.main{
+    display: flex;
+    max-width: 1200px;
+    align-items:center;
+    justify-content: center;
+
+    font-family: "Poppins", sans-serif;
+
+}
+.main h1{
+  font-weight: 800;
+  font-size: 90px;  
+  line-height: 102px;
+}
+.right-part img {
+    transition: transform .5s ease;
+  }
+  .right-part img:hover {
+    -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+  }
+
+  .shoe-img{
+    filter:drop-shadow(5px 5px 20px  rgba(0,0,0,.8));
+  }

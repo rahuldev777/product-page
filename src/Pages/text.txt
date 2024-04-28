@@ -1,0 +1,23 @@
+
+     
+     
+      const[image,setimage]=useState({img:"https://5.imimg.com/data5/ANDROID/Default/2022/8/DK/LM/WK/117294530/product-jpeg.jpg",text:""})
+
+     
+     <img
+     style={{height:"100px",width:"200px"}}
+          src={image.img}
+          onMouseEnter={() => {
+            setimage({img:"https://static.nike.com/a/images/c_limit,w_592,f_auto/t_product_v1/u_126ab356-44d8-4a06-89b4-fcdcc8df0245,c_scale,fl_relative,w_1.0,h_1.0,fl_layer_apply/312b0732-3206-40fa-b578-7bfb62c0675a/air-jordan-1-retro-high-og-mens-shoes-JHpxkn.png",text:"nice good"
+          })
+          }}
+
+          onMouseOut={() => {
+            setimage({
+              img:"https://5.imimg.com/data5/ANDROID/Default/2022/8/DK/LM/WK/117294530/product-jpeg.jpg",text:""
+            }
+               
+            )
+          }}
+        />
+        <p>{image.text}</p>
